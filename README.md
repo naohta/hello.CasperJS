@@ -17,12 +17,13 @@ Install
 [公式ドキュメント](http://docs.casperjs.org/en/latest/installation.html#index-0)
 [公式ドキュメント - Homebewで](http://docs.casperjs.org/en/latest/installation.html#installing-from-homebrew-osx)
 
-npmでインストールしようとしていろいろ試行錯誤したがうまく行かなかった。Homebrewでインストールすることにした。
+npmでインストールしようとしていろいろ試行錯誤したがうまく行かなかった。
+Homebrewでインストールすることにした。
 
-`brew install casperjs --devel` これはOK。
-~~`brew install phantomjs`~~ v2系が入った。Casper1系じゃないとダメと言ってきた。
-`brew search phantomjs` これで検索してみる。1系最新のv1.9.8を入れることにする。
-`brew install phantomjs198` これでOK。
+- `brew install casperjs --devel` これはOK。
+- ~~`brew install phantomjs`~~ v2系が入った。Casperが1系じゃないとダメと言ってきた。
+- `brew search phantomjs` これで検索してみる。1系最新のv1.9.8を入れることにする。
+- `brew install phantomjs198` これでOK。
 
 
 
