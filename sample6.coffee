@@ -8,16 +8,16 @@ casper.test.begin "Hello, I'm the CasperJS!", 1, (test) ->
   casper.viewport 320, 568
 
   casper.then ->
-    @capture 'captured_1.png'
+    @capture 'captured/captured_1.png'
 
   casper.then ->
     @click 'a[href="http://docs.casperjs.org/en/latest/"]'
 
   casper.then ->
-    @capture 'captured_2.png'
+    @capture 'captured/captured_2.png'
 
   casper.wait 800, ->
-    @capture 'captured_3.png'
+    @capture 'captured/captured_3.png'
 
   casper.run ->
     test.done()

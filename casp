@@ -1,1 +1,3 @@
-casperjs test sample6.coffee
+rm -rf captured/*
+coffee -p sample6.coffee > sample6.coffee.js
+casperjs test sample6.coffee.js
